@@ -1,0 +1,10 @@
+#### API 4：控制掃地機器人
+- **描述**：啟動/停止掃地機器人，設定清掃模式。
+- **端點**：
+  POST /api/v1/robot/control
+- **請求參數**：
+  json
+  {
+    "action": "string", // 必填，值為 "start", "stop", "set_mode"
+    "mode": "string" // 選填，值為 "auto", "spot", "edge"，僅當 action 為 "set_mode" 時需要指定
+  }

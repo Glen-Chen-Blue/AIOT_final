@@ -1,0 +1,5 @@
+Turn on the bathroom light:  
+{ "route": "/bathroom_light", "method": "POST", "data": { "open": true // Turn on the light } }
+
+Turn off the bathroom light:  
+{ "route": "/bathroom_light", "method": "POST", "data": { "open": false // Turn off the light } }

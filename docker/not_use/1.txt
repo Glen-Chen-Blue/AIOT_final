@@ -1,0 +1,10 @@
+#### API 1：控制電視
+- **描述**：開啟/關閉電視，調整音量，切換頻道。
+- **端點**：
+  POST /api/v1/tv/control
+- **請求參數**：
+  json
+  {
+    "action": "string", // 必填，值為 "power_on", "power_off", "volume_up", "volume_down", "set_channel"
+    "channel": "integer" // 選填，僅當 action 為 "set_channel" 時需要指定
+  }

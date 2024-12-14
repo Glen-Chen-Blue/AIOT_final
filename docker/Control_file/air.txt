@@ -1,0 +1,11 @@
+Turn on the air conditioner:  
+{ "route": "/air_conditioner", "method": "POST", "data": { "open": true // Turn on the air conditioner }}
+
+Turn off the air conditioner:  
+{ "route": "/air_conditioner", "method": "POST", "data": { "open": false // Turn off the air conditioner }}
+
+Increase air conditioner temperature:  
+{ "route": "/air_conditioner_temperature", "method": "POST", "data": { "up": true // Increase temperature }}
+
+Decrease air conditioner temperature:  
+{ "route": "/air_conditioner_temperature", "method": "POST", "data": { "up": false // Decrease temperature }}

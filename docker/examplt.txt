@@ -1,0 +1,3 @@
+curl -X POST http://localhost:6000/bot/ragChat -H "Content-Type: application/json" -d '{
+  "query": "請調高冷氣溫度"
+}'

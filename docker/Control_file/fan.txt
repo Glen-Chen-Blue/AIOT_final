@@ -1,0 +1,5 @@
+Turn on the fan:  
+{ "route": "/fan", "method": "POST", "data": { "open": true // Turn on the fan }}
+
+Turn off the fan:  
+{ "route": "/fan", "method": "POST", "data": { "open": false // Turn off the fan }}

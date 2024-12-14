@@ -1,0 +1,11 @@
+#### API 2：控制冷氣
+- **描述**：開啟/關閉冷氣，調整溫度，設定模式。
+- **端點**：
+  POST /api/v1/ac/control
+- **請求參數**：
+  json
+  {
+    "action": "string", // 必填，值為 "power_on", "power_off", "set_temperature", "set_mode"
+    "temperature": "string", // 選填，僅當 action 為 "set_temperature" 時需要指定，值為 "down", "up"
+    "mode": "string" // 選填，值為 "cool", "heat", "fan"，僅當 action 為 "set_mode" 時需要指定
+  }

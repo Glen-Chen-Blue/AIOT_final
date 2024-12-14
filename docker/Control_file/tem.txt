@@ -1,0 +1,2 @@
+Get the current temperature:  
+{ "route": "/temperature", "method": "GET", "data": {} // No additional parameters required }

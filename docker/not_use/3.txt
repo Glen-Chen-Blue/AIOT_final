@@ -1,0 +1,10 @@
+#### API 3：控制燈光
+- **描述**：開啟/關閉燈光，調整亮度。
+- **端點**：
+  POST /api/v1/light/control
+- **請求參數**：
+  json
+  {
+    "action": "string", // 必填，值為 "power_on", "power_off", "set_brightness"
+    "brightness": "integer" // 選填，範圍為 0-100，僅當 action 為 "set_brightness" 時需要指定
+  }

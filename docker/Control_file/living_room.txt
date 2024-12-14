@@ -1,0 +1,5 @@
+Turn on the living room light:
+{ "route": "/living_room_light", "method": "POST", "data": { "open": true // Turn on the light }}
+
+Turn off the living room light:
+{ "route": "/living_room_light", "method": "POST", "data": { "open": false // Turn off the light }}
